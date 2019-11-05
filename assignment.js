@@ -1,7 +1,7 @@
 const randomNumber = Math.random(); // produces random number between 0 (including) and 1 (excluding)
 
 if (randomNumber > 0.7) {
-  console.log("Number is greater than 0.7");
+  alert("Number is greater than 0.7");
 }
 
 const array = [1, 4, 6, 7, 21];
@@ -25,5 +25,5 @@ if (
   randomNumber <= 0.2 ||
   nacerRandomNumber <= 0.2
 ) {
-  console.log("Nacer alert!");
+    alert("Nacer alert!");
 }
